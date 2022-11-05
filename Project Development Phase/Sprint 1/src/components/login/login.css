@@ -1,0 +1,61 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/inventory-login.jpg);
+    background-size: cover;
+}
+
+.loginForm {
+    background-color: white;
+    border: 2px solid black;
+    padding: 0px 60px;
+    border-radius: 10px;
+}
+
+.loginTitle {
+    color: #011923ea;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.loginBtn {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid #000000;
+    background-color: #00151d;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.loginInputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.loginInputField {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.loginInputField::placeholder {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
